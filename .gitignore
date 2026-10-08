@@ -1,0 +1,14 @@
+# Files
+.DS_Store
+a.out
+*.dll
+*.dylib
+*.so
+*.lib
+
+# Folders
+.temp
+.cache
+build
+venv
+.venv
