@@ -1,0 +1,21 @@
+[project]
+name = "chari"
+version = "0.1.0"
+description = "Chari is an autonomous drone model programmed with ConvLSTM"
+authors = [
+    { name = "Roshan Bharati", email = "rosxnb@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy<2",
+    "torch==2.2.2",
+    "torchvision==0.17.2",
+]
+
+[project.scripts]
+chari = "chari:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
